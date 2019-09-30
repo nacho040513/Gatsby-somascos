@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/sanjeronimo.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Vocación Somascos" />
 
         <Header />
 
@@ -41,18 +41,33 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Congregación Padres Somascos <br></br>
+                  Provincia Andina
+                  </h2>
+                  
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                Somos una Comunidad Religiosa de origen Italiano, fundada por san Jerónimo Emiliani 
+                en 1486, más o menos por el mismo tiempo en que Cristóbal Colón descubrió América. 
+                 Vivimos en comunidad, somos sacerdotes y también Hermanos, dedicados, según el ejemplo
+                  de San Jerónimo, a servir a la niñez y juventud menos favorecida en colegios, parroquias, 
+                  escuelas de capacitación laboral, hogares para niños… "Allí donde haya un joven, allí hay 
+                  lugar para un Somasco". 
+               </p>
+
+                <p>
+                Estamos presentes hoy en los cinco continentes en 18 naciones, al servicio de la iglesia; 
+                sobre todo en el inmenso campo de la juventud marginada y desamparada.
+                <p>
+
                 </p>
+                Seguir a Jesús, es una experiencia maravillosa.
+                </p>
+
                 <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
-                      Learn More
+                      Ver mas
                     </Link>
                   </li>
                 </ul>
@@ -65,31 +80,48 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Etapas</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style1 fa-heart"></span>
+                <h2>Aspirantado</h2>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Es un periodo de un año de búsqueda de la voluntad de Dios en una experiencia humana,
+                 cristiana, comunitaria y apostólica, fuerte y decisiva que va orientada a un primer 
+                 discernimiento y que tendrá como verificación al ingreso al Postulantado
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style3 fa-child"></span>
+                <h2>Postulantado</h2>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Es la etapa de formación inicial en la que el aspirante inicia la experiencia de
+                 vivir en comunidad en la congregación, formándose integralmente a fin de clarificar 
+                 sus motivaciones y adquirir la preparación suficiente para comenzar el Noviciado
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-home"></span>
+                <h2>Noviciado</h2>
+                <p>
+                Es la etapa de formación inicial en la que el formando conoce y experimenta 
+                el nuevo estilo de vida que la Congregación le ofrece, a través de una fuerte
+                 experiencia de Dios, de la integración comunitaria y participación de la misión,
+                  para discernir su opción vocacional y decidirse en el seguimiento de Jesucristo 
+                  e esa congregación por medio de la profesión temporal.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <h2>Post-Noviciado</h2>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Es la última etapa de la formación inicial, donde se continua la formación 
+                integral, incorporándose los formando totalmente a las comunidades; clarifica
+                 y profundiza su carisma personal dentro del proyecto histórico de la Congregación; 
+                 unifica, más así, su vida en el amor personal a Jesucristo, y la entrega al Reino 
+                 en el Espíritu de la congregación a fin de optar definitivamente por Jesús a través
+                  de una profesión perpetua.  
                 </p>
               </li>
             </ul>
@@ -97,7 +129,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Learn More
+                    Ver mas
                   </Link>
                 </li>
               </ul>
@@ -106,52 +138,51 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Ser Somasco</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
+              “A la puerta de tu vida hay un niño huérfano que te espera”
                 <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                S. Jerónimo E.
               </p>
+
             </header>
             <ul className="statistics">
+              <li className="style3">
+                <span className="icon fa-globe"></span>
+                <strong>2</strong> paises
+              </li>
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <span className="icon fa-map-marker"></span>
+                <strong>6</strong> Ciudades
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <span className="icon fa-home"></span>
+                <strong>+23</strong> Obras
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
+                <span className="icon fa-users"></span>
+                <strong>+400</strong> Personas
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+                <span className="icon fa-gratipay"></span>
+                <strong>50 años</strong> Colombia
               </li>
             </ul>
+
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+            Hay millones de niños sedientos de amor por las calles de este mundo. <br/>
+            Jóvenes con miedo de vivir, que antes eran fuertes, inteligentes, decididos y 
+            ahora débiles y embrutecidos por las armas y las drogas. <br/>
+            Ser Somasco para ser de Dios,  ser de Dios, para construir una familia con
+             los niños más necesitados. <br/>
+            ¿No te gustaría entregar tu vida  al estilo de Jesús y san Jerónimo por 
+            la causa de un mundo mejor, viviendo el amor universal?
             </p>
             <footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Learn More
+                    Ver mas
                   </Link>
                 </li>
               </ul>
@@ -160,24 +191,23 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>¿Que espereas?</h2>
+              <h1>
+                JESÚS Te <strong style={{color:"#1378caa9", font:"bold"}}> Llama </strong> 
+              </h1>
+              <span> La Aventura De Ser <strong style={{color:"#1378caa9", font:"bold"}}>Somasco</strong></span>
             </header>
             <footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button special">
-                    Get Started
+                    Formulario
                   </Link>
                 </li>
                 <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
+                  <a href="http://www.somascoscolombia.org/index.html" className="button">
+                    Saber mas
+                  </a>
                 </li>
               </ul>
             </footer>

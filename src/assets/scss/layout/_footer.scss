@@ -5,8 +5,11 @@
 ///
 
 /* Footer */
-
+	#footer section{
+		background-color:transparent;
+	}
 	#footer {
+		
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
 		@include padding(5em, 5em);
